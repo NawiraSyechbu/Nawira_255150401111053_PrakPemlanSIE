@@ -303,16 +303,16 @@ public class DoubleLinkedList {
         
         //Add Before Value
         System.out.println("\n-- ADD BEFORE VALUE --");
-        //Add Before Value dengan value yang valid
+        //Add Before Value dengan value yang valid dan sebelum value node head
         list.addBeforeValue("E", new Node("N+"));
-        System.out.println("Setelah addBeforeValue('E', 'N+'):");
+        System.out.println("Setelah addBeforeValue('E', 'N+') [sebelum head]:");
         System.out.println("Normal:");
         list.print();
         System.out.println("Backward:");
         list.printBackward();
-        //Add Before Value dengan value yang valid dan sebelum value node head
+        //Add Before Value dengan value yang valid
         list.addBeforeValue("B", new Node("K"));
-        System.out.println("Setelah addBeforeValue('B', 'K') [sebelum head]:");
+        System.out.println("Setelah addBeforeValue('B', 'K'):");
         System.out.println("Normal:");
         list.print();
         System.out.println("Backward:");
